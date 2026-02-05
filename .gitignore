@@ -1,0 +1,44 @@
+# Secrets & Credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs & Output
+*.log
+logs/
+output/
+reports/
+*.xlsx
+*.csv
+!templates/*.csv
+
+# Audit data (may contain sensitive info)
+audit_results/
+findings/
